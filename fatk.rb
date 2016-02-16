@@ -1,8 +1,8 @@
 class Fatk < Delta
   desc "FASTA toolkit"
   homepage "https://github.com/mtomko/fatk"
-  url "https://github.com/mtomko/fatk"
-  sha256 "2bd6b0857a72d4dba0283507fbcaeb1d2c0300e578a5395668a88ef8de969243"
+  url "https://github.com/mtomko/fatk/releases/download/0.5.0/fatk-0.5.0.tar.gz"
+  sha256 "388ef3f2dd32fe18637ced7415eadc6d6aaca248e5cc7e75851f389bfe5a494b"
 
   bottle :unneeded
 
