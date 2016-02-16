@@ -1,4 +1,4 @@
-class Fatk < Delta
+class Fatk < Formula
   desc "FASTA toolkit"
   homepage "https://github.com/mtomko/fatk"
   url "https://github.com/mtomko/fatk/releases/download/0.5.0/fatk-0.5.0.tar.gz"
@@ -11,6 +11,6 @@ class Fatk < Delta
   end
 
   test do
-    system "#{bin}fatk", "version"
+    system "#{bin}fatk", "-version"
   end
 end
